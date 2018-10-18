@@ -46,7 +46,7 @@ def decode(message):
             result.append(message[max(0, l-i):l])
             l -= i
     return ''.join(result)
-        
+
 
 
 if n > 0:
